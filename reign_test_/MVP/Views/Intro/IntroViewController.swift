@@ -9,26 +9,18 @@ import UIKit
 class IntroViewController: UIViewController {
 
     @IBAction func GoToHome(_ sender: Any) {
-        
-        
-        
-        let tabViewController = HomeViewController()//RegisterNewActivity
+        let tabViewController = HomeViewController()
         tabViewController.hidesBottomBarWhenPushed=false
         tabViewController.modalPresentationStyle = .fullScreen
         self.present(tabViewController, animated: true, completion: nil)
 
-  
-        
     }
  
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     
     }
     
-    
-
 }
 
 
