@@ -6,12 +6,6 @@
 //
 
 import UIKit
-import ESPullToRefresh
-import SwipeCellKit
-import TTGSnackbar
-import PanModal
-import MagazineLayout
-
 class IntroViewController: UIViewController {
 
     @IBAction func GoToHome(_ sender: Any) {
@@ -26,17 +20,10 @@ class IntroViewController: UIViewController {
   
         
     }
-    @IBAction func goHome(_ sender: Any) {
-        
-              
-    }
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-    
-        
     
     }
     
