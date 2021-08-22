@@ -3,7 +3,7 @@
 
 Introduction:
 
-To test the application you have to download the folder and enter the folder from a terminal. then in the terminal you have to write "pod install", the libraries will be installed and then you just have to run the application from xcode.
+To test the application you have to download the folder and enter the folder from a terminal. Then in the terminal you have to write "pod install", the libraries will be installed and then you just have to run the application from xcode.
 
 
 Architecture: MVP
