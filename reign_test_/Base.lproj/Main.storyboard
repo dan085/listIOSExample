@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="IntroViewController" customModule="reign_test_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0h-qO-Q73">
+                                <rect key="frame" x="0.0" y="273" width="414" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Developer Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7au-6z-8Qi">
+                                        <rect key="frame" x="8" y="8" width="398" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="8KG-KI-E0h"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4a1-Ut-MIc">
+                                        <rect key="frame" x="8" y="63" width="398" height="216"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="216" id="76A-ab-jnw"/>
+                                        </constraints>
+                                        <string key="text">This is a test application that calls the API showing the information in order of the date, it has an integrated browser and the cells are dynamically adapted</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcY-q7-4fq" customClass="LGButton" customModule="LGButton">
+                                        <rect key="frame" x="76" y="287" width="262" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="8l6-AH-fBJ"/>
+                                            <constraint firstAttribute="width" constant="262" id="gg0-50-dcU"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" name="azul_playlist"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="fullyRoundedCorners" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Go Home"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="GoToHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMY-X3-wwu"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="yJ1-3P-0GX"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="4OI-6p-NNi"/>
+                                    <constraint firstAttribute="trailing" secondItem="7au-6z-8Qi" secondAttribute="trailing" constant="8" id="7Yg-pL-Ghg"/>
+                                    <constraint firstItem="7au-6z-8Qi" firstAttribute="leading" secondItem="A0h-qO-Q73" secondAttribute="leading" constant="8" id="Gbi-ib-jFP"/>
+                                    <constraint firstItem="TcY-q7-4fq" firstAttribute="top" secondItem="4a1-Ut-MIc" secondAttribute="bottom" constant="8" symbolic="YES" id="LYN-kA-4Ne"/>
+                                    <constraint firstItem="4a1-Ut-MIc" firstAttribute="top" secondItem="7au-6z-8Qi" secondAttribute="bottom" constant="5" id="S2x-il-ENz"/>
+                                    <constraint firstItem="7au-6z-8Qi" firstAttribute="top" secondItem="A0h-qO-Q73" secondAttribute="top" constant="8" id="YYL-1s-3DQ"/>
+                                    <constraint firstItem="4a1-Ut-MIc" firstAttribute="leading" secondItem="A0h-qO-Q73" secondAttribute="leading" constant="8" id="mvf-vj-tO4"/>
+                                    <constraint firstAttribute="trailing" secondItem="4a1-Ut-MIc" secondAttribute="trailing" constant="8" id="rQY-Bs-7YZ"/>
+                                    <constraint firstItem="TcY-q7-4fq" firstAttribute="centerX" secondItem="A0h-qO-Q73" secondAttribute="centerX" id="vvK-EK-Xe3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A0h-qO-Q73" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NS1-Jf-aKH"/>
+                            <constraint firstItem="A0h-qO-Q73" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hEw-Q0-M3n"/>
+                            <constraint firstItem="A0h-qO-Q73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pOu-hZ-ckH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="azul_playlist">
+            <color red="0.24699999392032623" green="0.31799998879432678" blue="0.70999997854232788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

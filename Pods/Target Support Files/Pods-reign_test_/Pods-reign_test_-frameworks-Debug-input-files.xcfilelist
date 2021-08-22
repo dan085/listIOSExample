@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-reign_test_/Pods-reign_test_-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework
+${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework
+${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework
+${BUILT_PRODUCTS_DIR}/LightweightObservable/LightweightObservable.framework
+${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework
+${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework
+${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework
